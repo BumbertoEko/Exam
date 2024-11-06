@@ -5,7 +5,8 @@
 
 body {
     background-color: #ffd295;
-        font-size: 24px; 
+    font-size: 24px;
+    /*font-family: 'Courier New', Courier, monospace;*/
 }
 
 main{
@@ -40,6 +41,10 @@ h2{
 
 h3{
     padding: 10px;
+}
+audio{
+    margin: 10px;
+    width: 100%;
 }
 
 .imagediv{
