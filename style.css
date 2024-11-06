@@ -13,15 +13,21 @@ main{
 }
 section{
     background-color: #ffbd6a;
+    outline: solid;
+    outline-width: 2px;
+    outline-color: rgba(0, 0, 0, 0.377);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.516);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.800);
 }
 
 h1{
     padding: 10px;
     text-align: center;
-    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.516);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.800);
+    outline: solid;
+    outline-width: 2px;
+    outline-color: rgba(0, 0, 0, 0.377);
 }
 
 header h1{
@@ -46,7 +52,10 @@ nav a{
     border-radius: 10px;
     text-decoration: none;
     color: black;
-    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.516);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.800);
+    outline: solid;
+    outline-width: 2px;
+    outline-color: rgba(0, 0, 0, 0.377);
     transform: scale(1);
     transition: transform 0.2s, background-color 0.2s;
 }
@@ -61,7 +70,7 @@ nav a:hover{
     border-radius: 10px;
     text-decoration: none;
     color: black;
-    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.516);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.800);
 }
 
 header{
@@ -74,7 +83,10 @@ nav{
 }
 
 footer{
-    box-shadow: 0px -2px 7px rgba(0, 0, 0, 0.516);
+    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.800);
+    outline: solid;
+    outline-width: 2px;
+    outline-color: rgba(0, 0, 0, 0.377);
     text-align: center;
     background-color: #ffbd6a;
     position: fixed;
