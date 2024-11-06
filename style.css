@@ -5,6 +5,7 @@
 
 body {
     background-color: #ffd295;
+        font-size: 24px; 
 }
 
 main{
@@ -23,12 +24,24 @@ h1{
     box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.516);
 }
 
+header h1{
+    text-shadow: 4px 3px 5px rgba(0, 0, 0, 0.516);
+}
+
+h2{
+    padding: 10px;
+}
+
+h3{
+    padding: 10px;
+}
+
 nav a{
     padding: 10px;
     margin: 3px;
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 2%;
     background-color: #ffbd6a;
     border-radius: 10px;
     text-decoration: none;
@@ -40,9 +53,9 @@ nav a{
 nav a:hover{
     padding: 10px;
     margin: 3px;
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 2%;
     transform: scale(1.1);
     background-color: #f9c483;
     border-radius: 10px;
