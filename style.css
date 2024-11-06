@@ -7,6 +7,16 @@ body {
     background-color: #ffd295;
 }
 
+main{
+    margin: 20px;
+}
+section{
+    background-color: #ffbd6a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.516);
+}
+
 h1{
     padding: 10px;
     text-align: center;
@@ -15,7 +25,10 @@ h1{
 
 nav a{
     padding: 10px;
-    margin: 15px;
+    margin: 3px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 3%;
     background-color: #ffbd6a;
     border-radius: 10px;
     text-decoration: none;
@@ -26,7 +39,10 @@ nav a{
 }
 nav a:hover{
     padding: 10px;
-    margin: 15px;
+    margin: 3px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 3%;
     transform: scale(1.1);
     background-color: #f9c483;
     border-radius: 10px;
